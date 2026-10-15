@@ -6,8 +6,9 @@
 
 ## 文档导航
 
+- **[2026-10-15 补充：RAG 推荐系统综述与阅读顺序](docs/2026-10-15-rag-recommendation-surveys.md)**
 - **[2026-10-15 对话记录：直接决策、RAG 幻觉与数据集入门](docs/2026-10-15-discussion.md)**
-- [对话摘要与候选研究路线](docs/conversation-summary.md)
+- [2026-10-14 对话摘要与候选研究路线](docs/2026-10-14-conversation-summary.md)
 - [中文综述及相关论文链接](docs/reading-list.md)
 
 ## 2026-10-15 调研进展
