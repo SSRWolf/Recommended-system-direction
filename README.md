@@ -1,11 +1,13 @@
 # 推荐系统科研方向探索
 
-首次整理：2026-10-14；最近更新：2026-10-15
+首次整理：2026-10-14；最近更新：2026-10-16
 
 本仓库记录关于推荐算法、时序偏好建模、推荐 Agent 和 AI 应用实习的讨论摘要，以及阅读资料入口。
 
 ## 文档导航
 
+- **[2026-10-16：扩散模型生成式推荐——中文导读、综述与研究路线](docs/2026-10-16-diffusion-generative-recommendation.md)**
+- **[扩散推荐数据集——官方入口、字段与复现实验注意事项](docs/diffusion-recommendation-datasets.md)**
 - **[2026-10-15 补充：RAG 推荐系统综述与阅读顺序](docs/2026-10-15-rag-recommendation-surveys.md)**
 - **[2026-10-15 对话记录：直接决策、RAG 幻觉与数据集入门](docs/2026-10-15-discussion.md)**
 - [2026-10-14 对话摘要与候选研究路线](docs/2026-10-14-conversation-summary.md)
