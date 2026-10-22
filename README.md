@@ -7,7 +7,7 @@
 ## 文档导航
 
 - **[2026-10-16：扩散模型生成式推荐——中文导读、综述与研究路线](docs/2026-10-16-diffusion-generative-recommendation.md)**
-- **[2026-10-22：扩散推荐与公平性——讨论记录、近期论文与实验建议](docs/2026-10-22-diffusion-fairness-discussion.md)**（含 A2G-DiffRec 开放 PDF）
+- **[2026-10-22：扩散推荐与公平性——讨论记录、近期论文与实验建议](docs/2026-10-22-diffusion-fairness-discussion.md)**（含最新 FairDiff 预印本与 A2G-DiffRec PDF）
 - **[扩散推荐数据集——官方入口、字段与复现实验注意事项](docs/diffusion-recommendation-datasets.md)**
 - **[2026-10-15 补充：RAG 推荐系统综述与阅读顺序](docs/2026-10-15-rag-recommendation-surveys.md)**
 - **[2026-10-15 对话记录：直接决策、RAG 幻觉与数据集入门](docs/2026-10-15-discussion.md)**
