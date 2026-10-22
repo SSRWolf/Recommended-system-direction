@@ -49,54 +49,19 @@ DiKGRec 的具体推理从用户记录的受扰动状态逐步恢复推荐分数
 
 ## 3. 近期直接相关论文
 
-### 3.1 最新预印本：FairDiff — Mitigating the Self-Reinforcing Matthew Effect（2026-09-29）
+| 阅读顺序 | 论文与状态 | 研究重点 | 仓库内 PDF 路径 | 原文 / 代码入口 |
+|---|---|---|---|---|
+| 1 | **FairDiff: Mitigating the Self-Reinforcing Matthew Effect in Diffusion Recommender Models**；Song-Li Wu et al.；arXiv:2609.36671，2026-09-29 预印本 | PCG 调节反向采样中的流行度条件；SC 用一步最优传输校准采样起点。作者认为扩散生成可能放大热门偏好，相关理论和实验仍需独立检验。 | [`papers/FairDiff-Matthew-Effect-arXiv-2026.pdf`](../papers/FairDiff-Matthew-Effect-arXiv-2026.pdf) | [arXiv 原文](https://arxiv.org/abs/2609.36671) |
+| 2 | **Adaptive Autoguidance for Item-Side Fairness in Diffusion Recommender Systems (A2G-DiffRec)**；Zihan Li et al.；SIGIR 2026, pp. 3935–3940；DOI: 10.1145/3805712.3809912 | 自引导与自适应融合权重，结合流行度公平正则，改善物品侧曝光平衡。 | [`papers/A2G-DiffRec-SIGIR-2026.pdf`](../papers/A2G-DiffRec-SIGIR-2026.pdf) | [arXiv 原文](https://arxiv.org/abs/2602.14706) · [SIGIR/作者组页面](https://hcai.at/publications/2026_07_sigir_a2g/) · [官方代码](https://github.com/zihanlizi/A2G-DiffRec) |
+| 3 | **FairDiff: Masked condition diffusion for fairness-aware recommendation**；Genhang Shen et al.；*Expert Systems with Applications*, 318 (2026), 131720；DOI: 10.1016/j.eswa.2026.131720 | 掩码条件扩散与公平损失；近似排序/曝光并对损失采样以降低计算量。关注物品个体公平。 | 未保存：出版页显示需机构访问或购买 | [出版页/摘要](https://www.sciencedirect.com/science/article/pii/S0957417426006330) · [代码入口](https://anonymous.4open.science/status/FairDiff-E84C) |
+| 4 | **Adversarial regularized diffusion model for fair recommendations (DiffuFair)**；Ran Yang et al.；*Neural Networks*, 190 (2025), 107695；DOI: 10.1016/j.neunet.2025.107695 | 对抗正则化扩散用户表示，降低敏感属性偏差；与物品曝光公平侧重点不同。 | 未另存 | [出版页/摘要](https://www.sciencedirect.com/science/article/pii/S0893608025005751) |
+| 5 | **How Fair is Your Diffusion Recommender Model?**；Daniele Malitesta et al.；RecSys 2025 Late-Breaking Results；DOI: 10.1145/3705328.3759318 | DiffRec/L-DiffRec 的消费者与提供者公平诊断及效用权衡，可作为评估基线。 | 未另存 | [作者页面](https://jackmedda.github.io/projects/fairdiffrec/) · [开放 PDF](https://erasmopurif.com/assets/pdf/publications/2024_arXiv_2.pdf) · [代码](https://github.com/danielemalitesta/FairDiffRec) |
 
-- Song-Li Wu, Xianquan Wang, Zhaocheng Du, Weinan Gan, Jingyi Wang. “FairDiff: Mitigating the Self-Reinforcing Matthew Effect in Diffusion Recommender Models.” arXiv:2609.36671，2026-09-29 首次提交；目前是预印本，未据此推定同行评审或会议录用状态。
-- 论文提出两项机制：Popularity Condition Guidance (PCG)，在反向采样时调节流行度条件；Semantic Calibration (SC)，用一步最优传输校准采样起点。作者主张扩散推荐的生成过程可能放大热门偏好，并报告其方法改善长尾覆盖与推荐效果。
-- [arXiv 论文页](https://arxiv.org/abs/2609.36671) · [PDF](https://arxiv.org/pdf/2609.36671)
-- **注意：**这篇与下文 ESWA 2026 的 “FairDiff: Masked condition diffusion for fairness-aware recommendation” 只是方法名相同，作者、论文、技术路线均不同。两篇均针对物品侧/流行度或曝光问题，不是直接解决“兴趣相近女性和男性的科幻推荐质量是否相同”。新预印本关于“扩散模型独特地放大马太效应”的论断仍应作为作者假设阅读，需关注定义、理论推导和复现实验。
-
-本仓库同时保存该开放预印本：[`papers/FairDiff-Matthew-Effect-arXiv-2026.pdf`](../papers/FairDiff-Matthew-Effect-arXiv-2026.pdf)。
-
-### 3.2 A2G-DiffRec（SIGIR 2026）
-
-- Zihan Li, Gustavo Escobedo, Marta Moscati, Oleg Lesota, Markus Schedl. “Adaptive Autoguidance for Item-Side Fairness in Diffusion Recommender Systems.” *Proceedings of SIGIR 2026*, pp. 3935–3940. DOI: 10.1145/3805712.3809912.
-- 关注**物品侧公平/流行度偏差**：提出自引导扩散推荐，主模型由训练较弱的模型引导，并学习自适应融合权重；使用公平正则鼓励不同流行度物品获得更平衡曝光。
-- [arXiv 论文页](https://arxiv.org/abs/2602.14706) · [PDF](https://arxiv.org/pdf/2602.14706) · [SIGIR/作者组页面](https://hcai.at/publications/2026_07_sigir_a2g/) · [官方代码](https://github.com/zihanlizi/A2G-DiffRec)
-- **与当前性别公平问题的关系：**它直接解决的是物品曝光侧，不是“相同科幻兴趣的女性用户能否得到同等质量推荐”。适合作为扩散公平相关方法与实验基线，不能直接当作用户侧方案。
-
-本仓库同时保存了开放获取的 arXiv PDF：[`papers/A2G-DiffRec-SIGIR-2026.pdf`](../papers/A2G-DiffRec-SIGIR-2026.pdf)。
-
-### 3.3 FairDiff（Expert Systems with Applications, 2026；与 3.1 同名但不同文）
-
-- Genhang Shen et al. “FairDiff: Masked condition diffusion for fairness-aware recommendation.” *Expert Systems with Applications*, 318 (2026), 131720. DOI: 10.1016/j.eswa.2026.131720，页面标注 2026-07-01。
-- 关注**物品侧个体公平**：在交互矩阵扩散中加入掩码条件与公平损失；用激活函数近似排序/曝光计算，并通过采样降低公平损失计算成本。
-- [出版页面与摘要](https://www.sciencedirect.com/science/article/pii/S0957417426006330) · [DOI](https://doi.org/10.1016/j.eswa.2026.131720) · [作者提供的代码入口](https://anonymous.4open.science/status/FairDiff-E84C)
-- 出版页面显示需机构访问或购买 PDF；本次没有找到可合法公开下载的作者全文，因此仓库记录书目信息和官方入口，不转存付费副本。
-
-### 3.4 DiffuFair（Neural Networks, 2025）
-
-- Ran Yang et al. “Adversarial regularized diffusion model for fair recommendations.” *Neural Networks*, 190 (2025), 107695. DOI: 10.1016/j.neunet.2025.107695。
-- 以对抗正则化扩散用户表示来降低敏感属性偏差，侧重点与物品曝光公平不同，可作为用户敏感属性公平路线的相关工作。
-- [出版页面与摘要](https://www.sciencedirect.com/science/article/pii/S0893608025005751)
-
-### 3.5 诊断基线：DiffRec 公平性研究（RecSys 2025 LBR）
-
-- Daniele Malitesta et al. “How Fair is Your Diffusion Recommender Model?” *Proceedings of the 19th ACM Conference on Recommender Systems (RecSys 2025)*, Late-Breaking Results track. DOI: 10.1145/3705328.3759318。
-- 对 DiffRec/L-DiffRec 等模型评估消费者和提供者公平，并分析效用与公平的权衡；该工作是公平诊断研究，不是一个已解决所有公平问题的通用方法。
-- [作者页面及结果概述](https://jackmedda.github.io/projects/fairdiffrec/) · [论文 PDF](https://erasmopurif.com/assets/pdf/publications/2024_arXiv_2.pdf) · [作者代码](https://github.com/danielemalitesta/FairDiffRec)
+表中的 1、3 两篇 FairDiff 是不同论文，仅方法名相同。表中最新工作与 A2G-DiffRec 主要讨论物品侧曝光/流行度公平；第 4 项关注用户表示中的敏感属性。它们都不能直接回答“兴趣相近的女性和男性是否得到同等质量的科幻推荐”，可作为方法和评测参考。建议依表中阅读顺序先看最新预印本，再读 A2G-DiffRec，最后看公平性诊断和不同公平路线。
 
 ## 4. 阅读建议
 
-先读 DiffRec 公平性诊断，弄清指标和偏差；然后读 A2G-DiffRec 与两篇不同的 FairDiff，比较物品曝光公平的引导采样、掩码条件和训练约束；最后看 DiffuFair 的敏感属性路线，再回到“兴趣相近女性与男性的科幻推荐质量差距”设计用户侧实验。
-
-| 阅读顺序 | 重点问题 |
-|---|---|
-| 1. DiffRec fairness study | 扩散推荐如何测用户/提供者公平？公平与准确率如何权衡？ |
-| 2. A2G-DiffRec | 自引导机制怎样调节不同流行度物品曝光？ |
-| 3. FairDiff（2026-09 预印本） | PCG/SC 的机制和“生成过程放大偏差”论据是否成立、是否可复现？ |
-| 4. FairDiff（ESWA 2026） | 排序近似、公平损失和掩码条件如何进入扩散目标？ |
-| 5. DiffuFair | 如何降低用户表示中的敏感属性偏差？是否保留个人兴趣？ |
+读论文时重点比较公平对象、损失/引导放置位置、准确率—公平权衡，以及作者是否公开可复现的代码与数据协议。对最新 FairDiff 预印本，应把“扩散过程独特放大马太效应”当作作者提出的主张，检查定义、理论推导和实验是否充分支持。
 
 ## 5. 实验设计提醒
 
