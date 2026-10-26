@@ -1,12 +1,13 @@
 # 推荐系统科研方向探索
 
-首次整理：2026-10-14；最近更新：2026-10-16
+首次整理：2026-10-14；最近更新：2026-10-26
 
 本仓库记录关于推荐算法、时序偏好建模、推荐 Agent 和 AI 应用实习的讨论摘要，以及阅读资料入口。
 
 ## 文档导航
 
 - **[2026-10-16：扩散模型生成式推荐——中文导读、综述与研究路线](docs/2026-10-16-diffusion-generative-recommendation.md)**
+- **[2026-10-26：扩散模型改善活跃与不活跃用户体验——讨论与相关研究](docs/2026-10-26-diffusion-inactive-user-discussion.md)**（含 DifFaiRec 的 LastFM 活跃度实验、邻近论文及研究边界）
 - **[2026-10-22：扩散推荐与公平性——讨论记录、近期论文与实验建议](docs/2026-10-22-diffusion-fairness-discussion.md)**（含最新 FairDiff 预印本与 A2G-DiffRec PDF）
 - **[扩散推荐数据集——官方入口、字段与复现实验注意事项](docs/diffusion-recommendation-datasets.md)**
 - **[2026-10-15 补充：RAG 推荐系统综述与阅读顺序](docs/2026-10-15-rag-recommendation-surveys.md)**
