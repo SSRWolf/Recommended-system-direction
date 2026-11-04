@@ -6,7 +6,7 @@
 
 ## 文档导航
 
-- **[2026-11-04：深度隐性表征、解耦与对比学习——研究转向及九篇论文](docs/2026-11-04-latent-representation-contrastive-fairness.md)**（标注发表地点、时间、模块作用、适用边界与实验路线）
+- **[2026-11-04：深度隐性表征、解耦与对比学习——研究转向及十四篇论文](docs/2026-11-04-latent-representation-contrastive-fairness.md)**（新增五篇2025—2026年工作；标注发表地点、时间、模块作用、适用边界与实验路线）
 - **[2026-11-03：行为子集与推荐刻板印象放大——定义、评估、模型关系及研究边界](docs/2026-11-03-behavior-subset-stereotype-discussion.md)**（含候选指标、反事实对照、相关论文与下一步研究问题）
 - **[2026-10-16：扩散模型生成式推荐——中文导读、综述与研究路线](docs/2026-10-16-diffusion-generative-recommendation.md)**
 - **[2026-10-26：扩散模型改善活跃与不活跃用户体验——讨论与相关研究](docs/2026-10-26-diffusion-inactive-user-discussion.md)**（含 DifFaiRec 的 LastFM 活跃度实验，以及“动态活跃度群体的长期用户公平扩散推荐”方向、方法、评估和数据边界）

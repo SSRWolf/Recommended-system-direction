@@ -44,6 +44,40 @@
 | [Self-supervised Graph Learning for Recommendation（SGL）](https://doi.org/10.1145/3404835.3462862) | SIGIR 2021 | 正式发表 **2021**；会议 **2021-07-11—15** | 图增强、节点跨视图对比、图协同过滤 | 图对比学习基础与实验基线；不直接识别公平性 |
 | [Disentangling confounders via counterfactual interventions for fair recommendations（FairDC）](https://www.sciencedirect.com/science/article/pii/S0957417426002010) | Expert Systems with Applications，第311卷，131288 | 卷期日期 **2026-05-15**，不是首次在线日期 | 混杂因素解耦、反事实干预、公平性学习 | 近期直接相关工作，需重点比较任务和假设 |
 
+### 2.1 补充更新：五篇2025—2026年工作
+
+补查日期：2026-11-04。下表在原九篇基础上新增五篇，共十四篇；原表的 IOCLRec（2025）与 FairDC（2026）不重复计数。新旧不是唯一排序标准，以下按与研究问题的关系选择。正式出版信息以出版社／会议官方页面为依据；只查到预印本的单独注明，不推定其已录用。
+
+| 论文／方法 | 发表地点与状态 | 时间及口径 | 模块与用途 | 需要保留的边界 |
+|---|---|---|---|---|
+| [FairFU: A study of fair recommendation mechanisms for graph comparison by fusing structural interaction and information bottlenecks](https://www.sciencedirect.com/science/article/pii/S0925231226009616) | **Neurocomputing**，正式期刊论文，文章号133564 | **2026-07-01，卷期日期**；不等于首次上线日 | 深度交互融合、图扰动对比学习、双路径信息瓶颈；直接关联公平表征 | 约束敏感信息，不等于自动发现未知社会身份或解释具体行为子集 |
+| [Intent-enhanced sequential recommendation via multi-view contrastive learning over stabilized essential intents（IeSRec）](https://link.springer.com/article/10.1007/s44443-026-01197-1) | **Journal of King Saud University Computer and Information Sciences**，38，文章号789 | **2026-08-26，官方 Published／Version of record 日期** | 意图增强、子序列编码与聚类、多视图意图对比 | 研究推荐意图；不是刻板印象或敏感群体公平方法 |
+| [Intent-aware Diffusion with Contrastive Learning for Sequential Recommendation（InDiRec）](https://doi.org/10.1145/3726302.3730010) | **SIGIR 2025**，正式会议论文 | 正式论文集 **2025**；会议 **2025-07-13—18**；[预印本](https://arxiv.org/abs/2504.16077)首次提交 **2025-04-22** | 意图聚类指导条件扩散，生成对比学习视图 | 生成增强序列是训练手段，不是生成敏感身份；仍需公平目标 |
+| [Intent-Driven Multi-level Augmentation with Contrastive Learning for Sequential Recommendation（IDMARec）](https://www.sciencedirect.com/science/article/abs/pii/S0950705125006525) | **Knowledge-Based Systems**，正式期刊论文，文章号113606 | **2025-08-03，卷期日期**；不等于首次上线日 | 隐性意图对比、多层增强、结合对比结构的GAN | 侧重稀疏与噪声处理，不能把所有少数兴趣当噪声删除 |
+| [Intent-Guided Reasoning for Sequential Recommendation（IGR-SR）](https://arxiv.org/abs/2512.14034) | **arXiv预印本**，arXiv:2512.14034；本次未核实正式会议／期刊录用 | **2025-12-16，首次提交日期** | 冻结编码器与可学习token蒸馏多面意图、意图引导推理、一致性正则 | 高层意图不自动具备人口统计语义；预印本状态应与正式出版区分 |
+
+### 2.2 新论文具体值得学什么
+
+**FairFU：最贴近“深度表征＋对比学习＋公平约束”。** 论文结合图扰动对比、结构交互融合与双路径信息瓶颈，在图传播前后约束敏感信息。可重点看它如何区分协同推荐信号和敏感信号，以及对比目标与公平目标如何配合。它主要学习减少敏感信息依赖的表征；若自己的目标是“发现并解释放大偏差的行为”，仍需补充行为回溯与干预验证。该定位基于出版社摘要和方法概述，尚未完成全文复现级审读。[出版社原文](https://www.sciencedirect.com/science/article/pii/S0925231226009616)
+
+**IeSRec：最贴近“从行为片段发现隐性意图”。** 方法通过子序列构造、意图增强、编码和聚类组织多视图对比信号。它适合作为 IOCLRec 的后续比较：怎样让增强保留意图，而不是破坏原始行为语义？针对本研究，尤其要检验那些被视为噪声或非典型偏好的交互，是否其实代表需要保护的次要兴趣；这是我们的评审问题，并非论文已证明的缺陷。[出版社全文](https://link.springer.com/article/10.1007/s44443-026-01197-1)
+
+**InDiRec：用意图约束增强样本的生成。** 它先对序列表征做 K-means 聚类，再以意图表示引导条件扩散生成正视图，通过对比学习对齐原序列和增强序列。可用于研究“正样本究竟应该保留什么”，也衔接此前的扩散推荐调研。需要额外评估生成成本和次要兴趣是否被覆盖，不能把语义保持直接等同于公平保持。[SIGIR官方论文页面](https://sigir2025.dei.unipd.it/detailed-program/paper?paper=6bc24fc1ab650b25b4114e93a98f1eba)；[作者代码](https://github.com/qyp9909/InDiRec)
+
+**IDMARec：多层增强与噪声控制的补充对照。** 出版社介绍其通过意图对比及包含对比结构的GAN进行增强与噪声平衡。适合与 InDiRec 比较不同增强策略，暂不作为公平性的直接基线。当前依据为出版社摘要与 Highlights，具体生成器、损失和样本构造需要精读全文后确认。[出版社页面](https://www.sciencedirect.com/science/article/abs/pii/S0950705125006525)
+
+**IGR-SR：从隐性意图连接到高层推理。** 预印本提出潜在意图蒸馏、意图引导推理和一致性正则，可用于拓展“多面背景表征如何服务决策”的思路。但其高层意图、人类可读背景概念及敏感属性是不同概念，应分别验证。它不是已确认的公平性方法，发表状态也尚未核实到正式录用。[作者预印本](https://arxiv.org/abs/2512.14034)
+
+### 2.3 更新后的阅读安排
+
+1. **先读 IOCLRec＋IeSRec**：理解行为子序列、潜在意图和对比样本。
+2. **再读 FairMI＋FairFU**：理解公平监督怎样进入表征学习，避免普通对比学习保留原有偏差。
+3. **补读 InDiRec**：研究意图保持的增强视图，判断扩散模块是否确有必要。
+4. **对照 DICE＋FairDC**：检查因素定义、解耦依据和干预假设。
+5. **IDMARec、IGR-SR 作为扩展**：分别关注增强策略与高层意图推理。
+
+最新文献进一步提示：**“学习隐性意图”与“过滤敏感信息”已经各有成熟研究路线，候选贡献应落在两者之间的可验证联系——哪些隐性因素在什么条件下放大指定偏差，以及如何回溯和干预。** 这是根据上述工作的研究判断，并非已经完成查重或证明新颖性。
+
 ## 3. 最值得精读的论文及阅读问题
 
 ### IOCLRec：先从行为片段学习意图
