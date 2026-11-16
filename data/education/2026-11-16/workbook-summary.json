@@ -1,0 +1,3898 @@
+{
+  "format_version": 1,
+  "source_filename": "教育类数据集_表头与前五条_含字段说明.xlsx",
+  "source_sha256": "89aad6d15350003d42192e167ff47dd148186b257ec8a936903c10d766afea15",
+  "scope": "Workbook sample/schema inventory, not full dataset statistics. No individual sample records exported.",
+  "sheet_count": 33,
+  "sample_row_count": 128,
+  "sheets": [
+    {
+      "name": "来源与覆盖",
+      "worksheet_rows": 34,
+      "columns": 6,
+      "kind": "metadata",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "数据集或子表",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "来源文件",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "已收录行数",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "核验情况",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "来源链接",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "备注",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ],
+      "metadata_rows": [
+        [
+          "Algebra05",
+          "algebra_2005_2006/algebra_2005_2006_train.txt",
+          5,
+          "公开文件前五行",
+          "https://base.ustc.edu.cn/data/KDD_Cup_2010/algebra_2005_2006.zip",
+          null
+        ],
+        [
+          "Algebra06",
+          "algebra_2006_2007_train.txt",
+          5,
+          "EduData 文档展示行",
+          "https://edudata.readthedocs.io/en/latest/build/blitz/KDD%20Cup%202010.html",
+          null
+        ],
+        [
+          "ASSIST2009",
+          "skill_builder_data_corrected.csv",
+          5,
+          "公开数据文件前五行",
+          "https://base.ustc.edu.cn/data/ASSISTment/2009_skill_builder_data_corrected.zip",
+          null
+        ],
+        [
+          "ASSIST2012",
+          "2012-2013-data-with-predictions-4-final.csv",
+          5,
+          "公开文件前五行",
+          "https://base.ustc.edu.cn/data/ASSISTment/2012-2013-data-with-predictions-4-final.zip",
+          null
+        ],
+        [
+          "ASSIST2015",
+          "2015_100_skill_builders_main_problems.csv",
+          5,
+          "公开数据文件前五行",
+          "https://base.ustc.edu.cn/data/ASSISTment/2015_100_skill_builders_main_problems.zip",
+          null
+        ],
+        [
+          "ASSIST2017",
+          "anonymized_full_release_competition_dataset.csv",
+          5,
+          "公开数据文件前五行",
+          "https://base.ustc.edu.cn/data/ASSISTment/anonymized_full_release_competition_dataset.zip",
+          null
+        ],
+        [
+          "Junyi",
+          "junyi_ProblemLog_for_PSLC.txt",
+          5,
+          "EduData 公开样本文件前五行",
+          "https://base.ustc.edu.cn/data/tests/junyi/junyi_ProblemLog_for_PSLC.txt",
+          null
+        ],
+        [
+          "Junyi_题目",
+          "junyi_Exercise_table.csv",
+          5,
+          "EduData 公开样本文件前五行",
+          "https://base.ustc.edu.cn/data/tests/junyi/junyi_Exercise_table.csv",
+          null
+        ],
+        [
+          "OLI_操作",
+          "AllData_transaction_2011F.csv",
+          5,
+          "公开文件前五行",
+          "https://base.ustc.edu.cn/data/OLI_data.zip",
+          null
+        ],
+        [
+          "OLI_步骤",
+          "AllData_student_step_2011F.csv",
+          5,
+          "公开文件前五行",
+          "https://base.ustc.edu.cn/data/OLI_data.zip",
+          null
+        ],
+        [
+          "OLI_题目",
+          "AllData_problem_2011F.csv",
+          5,
+          "公开文件前五行",
+          "https://base.ustc.edu.cn/data/OLI_data.zip",
+          null
+        ],
+        [
+          "OULAD_assessments",
+          "assessments.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_courses",
+          "courses.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_学生",
+          "studentInfo.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_studentRegistration",
+          "studentRegistration.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_studentVle",
+          "studentVle.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_网站",
+          "vle.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "OULAD_评估",
+          "studentAssessment.csv",
+          5,
+          "公开文件前五行",
+          "https://raw.githubusercontent.com/raazifaisal/behaviouralDA/main/open%2Buniversity%2Blearning%2Banalytics%2Bdataset.zip",
+          null
+        ],
+        [
+          "EdNet-KT1",
+          "README 中的每学生行为日志示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          "README 示例的中间两列表头与值不一致。按列描述将 48 等对齐到 solving_id，q2844 等对齐到 question_id。"
+        ],
+        [
+          "EdNet-KT2",
+          "README 中的每学生行为日志示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet-KT3",
+          "README 中的每学生行为日志示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet-KT4",
+          "README 中的每学生行为日志示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet_题库",
+          "README 中的内容表示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet_讲解",
+          "README 中的内容表示例",
+          5,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet_付费项",
+          "README 中的内容表示例",
+          4,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "EdNet_优惠券",
+          "README 中的内容表示例",
+          4,
+          "官方文档示例，原始全量文件顺序未核实",
+          "https://github.com/riiid/EdNet",
+          null
+        ],
+        [
+          "MoocRadar",
+          "student-problem-fine.json / seq 元素",
+          0,
+          "字段来自 UniKT 文件说明，未取得原记录",
+          "https://unikt.readthedocs.io/en/latest/datasets/catalog/moocradar.html",
+          "表头代表 seq 中每次作答的 JSON 键。"
+        ],
+        [
+          "MoocRadar_题目",
+          "problem.json",
+          0,
+          "字段来自 UniKT 文件说明，未取得原记录",
+          "https://unikt.readthedocs.io/en/latest/datasets/catalog/moocradar.html",
+          null
+        ],
+        [
+          "DBE-KT22",
+          "transaction.csv / questions.csv / question_kc_relationships.csv",
+          0,
+          "档案下载未取得",
+          "https://dataverse.ada.edu.au/dataset.xhtml?persistentId=doi:10.26193/6DZWOH",
+          "论文介绍尝试、题目、知识点关系等表；文件表头尚未核验。"
+        ],
+        [
+          "FoundationalASSIST",
+          "Data/Interactions.csv",
+          0,
+          "申请制；仅发布方描述的字段，顺序未核验",
+          "https://huggingface.co/datasets/ASSISTments/FoundationalASSIST/blob/main/README.md?code=true",
+          null
+        ],
+        [
+          "Foundational_题库",
+          "Data/Problems.csv",
+          0,
+          "申请制；仅发布方描述的字段",
+          "https://huggingface.co/datasets/ASSISTments/FoundationalASSIST/blob/main/README.md?code=true",
+          null
+        ],
+        [
+          "Foundational_技能",
+          "Data/Skills.csv",
+          0,
+          "申请制；未核实表头和记录",
+          "https://huggingface.co/datasets/ASSISTments/FoundationalASSIST/blob/main/README.md?code=true",
+          null
+        ],
+        [
+          "DBE-KT22_序列",
+          "practice_sequences.json",
+          0,
+          "字段来自原论文 §3.3，未取得原记录",
+          "https://arxiv.org/html/2208.12651v3",
+          "这是作者生成的序列文件字段，不是 transaction.csv 的表头。"
+        ]
+      ]
+    },
+    {
+      "name": "共同字段",
+      "worksheet_rows": 12,
+      "columns": 4,
+      "kind": "metadata",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "可统一字段",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "含义",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "代表性原字段",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "对齐要点",
+          "description_from_workbook": null,
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ],
+      "metadata_rows": [
+        [
+          "dataset_id",
+          "数据集／版本",
+          "由导入流程添加",
+          "相同的学生或题目编号只在各自数据集内解释。"
+        ],
+        [
+          "student_id",
+          "学习者标识",
+          "user_id / studentId / Anon Student Id / id_student / user_xid",
+          "EdNet 用户标识来自每个 CSV 的文件名。背景属性建议放在独立学生表。"
+        ],
+        [
+          "item_id + item_type",
+          "交互对象与粒度",
+          "problem_id / problemId / question_id / item_id / Problem Name + Step Name / id_site",
+          "对象可能是题、解题步骤、题组、解析、讲座或网页。ASSIST2015 的 sequence_id 是题集，不作独立题目 ID。"
+        ],
+        [
+          "time_or_order",
+          "时间或顺序",
+          "timestamp / startTime / Time / end_time / date / log_id / order_id",
+          "统一时须保留时间单位。序号可排序，但不能直接求时间间隔。OULAD 的 date 是课程相对日。"
+        ],
+        [
+          "event_type",
+          "行为种类",
+          "action_type / Student Response Type / activity_type",
+          "作答数据可标为 attempt。OULAD 的活动类型是资源元数据，点击次数需保留在独立字段。"
+        ],
+        [
+          "outcome / score",
+          "反馈或成绩",
+          "correct / Outcome / Correct First Attempt / discrete_score / score",
+          "区分首答、含提示规则、部分得分和课程成绩。EdNet 以 user_answer 与题库 correct_answer 比较；点击事件的正确性留空。"
+        ],
+        [
+          "knowledge_ids",
+          "知识点或概念",
+          "skill_id / skill / KC (...) / tags",
+          "保留一题多知识点；题目侧标签需关联，课程或题集 ID 不直接当知识点。OULAD 不强行补 KC。"
+        ],
+        [
+          "duration / help_count",
+          "耗时与求助",
+          "elapsed_time / timeTaken / Duration (sec) / hint_count / hintCount",
+          "可选字段；统一单位并区分缺失和 0。"
+        ],
+        [
+          "background_fields",
+          "学生背景",
+          "gender / age_band / imd_band / disability / InferredGender",
+          "适合按组核验。IMD 属地区指标；InferredGender 是推断字段。"
+        ],
+        [
+          "推荐统一表",
+          "最小交互结构",
+          "dataset_id, student_id, item_id, item_type, time_or_order, event_type, outcome",
+          "KC、时长、提示、学生背景及答案文本作为可选字段或独立表。"
+        ],
+        [
+          "样例口径",
+          "“前五”按来源顺序",
+          "来源与覆盖工作表记录实际收录条数",
+          "公开文档样例、公开文件前五行、仅字段说明分别标注。样例字段尽量按来源文本保留。"
+        ]
+      ]
+    },
+    {
+      "name": "Algebra05",
+      "worksheet_rows": 7,
+      "columns": 19,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Row",
+          "description_from_workbook": "原文件行号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Problem Hierarchy",
+          "description_from_workbook": "课程单元与章节路径",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Problem View",
+          "description_from_workbook": "该学生第几次遇到此题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Step Name",
+          "description_from_workbook": "解题步骤名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Step Start Time",
+          "description_from_workbook": "步骤开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "First Transaction Time",
+          "description_from_workbook": "本步骤第一次操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Correct Transaction Time",
+          "description_from_workbook": "首次正确操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Step End Time",
+          "description_from_workbook": "步骤结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Step Duration (sec)",
+          "description_from_workbook": "步骤用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Correct Step Duration (sec)",
+          "description_from_workbook": "首答正确步骤的用时（秒）",
+          "sample_null_cells": 2,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "Error Step Duration (sec)",
+          "description_from_workbook": "首答出错或求助步骤的用时（秒）",
+          "sample_null_cells": 3,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "Correct First Attempt",
+          "description_from_workbook": "首次尝试是否正确（1/0）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "Incorrects",
+          "description_from_workbook": "本步骤答错次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "Hints",
+          "description_from_workbook": "本步骤请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "Corrects",
+          "description_from_workbook": "本步骤答对次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "KC(Default)",
+          "description_from_workbook": "默认模型标注的知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "Opportunity(Default)",
+          "description_from_workbook": "该学生练习对应知识点的累计机会序号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "Algebra06",
+      "worksheet_rows": 7,
+      "columns": 19,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Row",
+          "description_from_workbook": "原文件行号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Problem Hierarchy",
+          "description_from_workbook": "课程单元与章节路径",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Problem View",
+          "description_from_workbook": "该学生第几次遇到此题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Step Name",
+          "description_from_workbook": "解题步骤名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Step Start Time",
+          "description_from_workbook": "步骤开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "First Transaction Time",
+          "description_from_workbook": "本步骤第一次操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Correct Transaction Time",
+          "description_from_workbook": "首次正确操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Step End Time",
+          "description_from_workbook": "步骤结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Step Duration (sec)",
+          "description_from_workbook": "步骤用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Correct Step Duration (sec)",
+          "description_from_workbook": "首答正确步骤的用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 1
+        },
+        {
+          "column_1based": 13,
+          "name": "Error Step Duration (sec)",
+          "description_from_workbook": "首答出错或求助步骤的用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 4
+        },
+        {
+          "column_1based": 14,
+          "name": "Correct First Attempt",
+          "description_from_workbook": "首次尝试是否正确（1/0）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "Incorrects",
+          "description_from_workbook": "本步骤答错次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "Hints",
+          "description_from_workbook": "本步骤请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "Corrects",
+          "description_from_workbook": "本步骤答对次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "KC(Default)",
+          "description_from_workbook": "默认模型标注的知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 2
+        },
+        {
+          "column_1based": 19,
+          "name": "Opportunity(Default)",
+          "description_from_workbook": "该学生练习对应知识点的累计机会序号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 2
+        }
+      ]
+    },
+    {
+      "name": "ASSIST2009",
+      "worksheet_rows": 7,
+      "columns": 30,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "order_id",
+          "description_from_workbook": "作答日志顺序编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "assignment_id",
+          "description_from_workbook": "作业编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "user_id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "assistment_id",
+          "description_from_workbook": "辅导单元编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "original",
+          "description_from_workbook": "是否为原题而非支架子题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "correct",
+          "description_from_workbook": "首答正确性或评分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "attempt_count",
+          "description_from_workbook": "作答尝试次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "ms_first_response",
+          "description_from_workbook": "首次响应耗时（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "tutor_mode",
+          "description_from_workbook": "辅导模式",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "answer_type",
+          "description_from_workbook": "答案类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "sequence_id",
+          "description_from_workbook": "题集编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "student_class_id",
+          "description_from_workbook": "学生所在班级编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "position",
+          "description_from_workbook": "题目在题集中的位置",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "type",
+          "description_from_workbook": "题集类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "base_sequence_id",
+          "description_from_workbook": "基础题集编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "skill_id",
+          "description_from_workbook": "知识点编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "skill_name",
+          "description_from_workbook": "知识点名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "teacher_id",
+          "description_from_workbook": "教师编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "school_id",
+          "description_from_workbook": "学校编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "hint_count",
+          "description_from_workbook": "请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "hint_total",
+          "description_from_workbook": "该题可用提示总数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "overlap_time",
+          "description_from_workbook": "重叠时间字段，具体计算口径请查原始版本",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "template_id",
+          "description_from_workbook": "参数化题目模板编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "answer_id",
+          "description_from_workbook": "答案编号",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "answer_text",
+          "description_from_workbook": "作答文本",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "first_action",
+          "description_from_workbook": "首次操作类型编码",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 28,
+          "name": "bottom_hint",
+          "description_from_workbook": "是否用到最后一级提示",
+          "sample_null_cells": 4,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 29,
+          "name": "opportunity",
+          "description_from_workbook": "对应知识点的作答机会编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 30,
+          "name": "opportunity_original",
+          "description_from_workbook": "仅计原题的知识点机会编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "ASSIST2012",
+      "worksheet_rows": 7,
+      "columns": 35,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "problem_log_id",
+          "description_from_workbook": "题目交互日志编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "skill",
+          "description_from_workbook": "知识点名称",
+          "sample_null_cells": 2,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "user_id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "assignment_id",
+          "description_from_workbook": "作业编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "assistment_id",
+          "description_from_workbook": "辅导单元编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "start_time",
+          "description_from_workbook": "记录开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "end_time",
+          "description_from_workbook": "记录结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "problem_type",
+          "description_from_workbook": "题目类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "original",
+          "description_from_workbook": "是否为原题而非支架子题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "correct",
+          "description_from_workbook": "首次作答评分，可含部分得分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "bottom_hint",
+          "description_from_workbook": "是否用到最后一级提示",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "hint_count",
+          "description_from_workbook": "请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "actions",
+          "description_from_workbook": "该题交互中的操作次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "attempt_count",
+          "description_from_workbook": "作答尝试次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "ms_first_response",
+          "description_from_workbook": "首次响应耗时（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "tutor_mode",
+          "description_from_workbook": "辅导模式",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "sequence_id",
+          "description_from_workbook": "题集编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "student_class_id",
+          "description_from_workbook": "学生所在班级编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "position",
+          "description_from_workbook": "题目在题集中的位置",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "type",
+          "description_from_workbook": "题集类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "base_sequence_id",
+          "description_from_workbook": "基础题集编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "skill_id",
+          "description_from_workbook": "知识点编号",
+          "sample_null_cells": 2,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "teacher_id",
+          "description_from_workbook": "教师编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "school_id",
+          "description_from_workbook": "学校编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "overlap_time",
+          "description_from_workbook": "重叠时间字段，具体计算口径请查原始版本",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "template_id",
+          "description_from_workbook": "参数化题目模板编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 28,
+          "name": "answer_id",
+          "description_from_workbook": "答案编号",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 29,
+          "name": "answer_text",
+          "description_from_workbook": "作答文本",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 30,
+          "name": "first_action",
+          "description_from_workbook": "首次操作类型编码",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 31,
+          "name": "problemlogid",
+          "description_from_workbook": "情绪预测表用于关联的题目日志编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 32,
+          "name": "Average_confidence(FRUSTRATED)",
+          "description_from_workbook": "挫败状态预测的平均置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 33,
+          "name": "Average_confidence(CONFUSED)",
+          "description_from_workbook": "困惑状态预测的平均置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 34,
+          "name": "Average_confidence(CONCENTRATING)",
+          "description_from_workbook": "专注状态预测的平均置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 35,
+          "name": "Average_confidence(BORED)",
+          "description_from_workbook": "无聊状态预测的平均置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "ASSIST2015",
+      "worksheet_rows": 7,
+      "columns": 4,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "user_id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "log_id",
+          "description_from_workbook": "作答日志编号，可用于排序",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "sequence_id",
+          "description_from_workbook": "题集编号，每个题集关联一项技能",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "correct",
+          "description_from_workbook": "首次作答得分，可含部分得分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "ASSIST2017",
+      "worksheet_rows": 7,
+      "columns": 82,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "studentId",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "MiddleSchoolId",
+          "description_from_workbook": "匿名中学编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "InferredGender",
+          "description_from_workbook": "数据集推断的性别",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "SY ASSISTments Usage",
+          "description_from_workbook": "使用 ASSISTments 的学年",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "AveKnow",
+          "description_from_workbook": "学生平均知识估计值",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "AveCarelessness",
+          "description_from_workbook": "学生平均粗心估计值",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "AveCorrect",
+          "description_from_workbook": "学生平均正确率",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "NumActions",
+          "description_from_workbook": "学生操作总数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "AveResBored",
+          "description_from_workbook": "无聊状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "AveResEngcon",
+          "description_from_workbook": "投入或专注状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "AveResConf",
+          "description_from_workbook": "困惑状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "AveResFrust",
+          "description_from_workbook": "挫败状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "AveResOfftask",
+          "description_from_workbook": "偏离任务状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "AveResGaming",
+          "description_from_workbook": "钻系统规则状态平均预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "action_num",
+          "description_from_workbook": "操作序号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "skill",
+          "description_from_workbook": "知识点标签",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "problemId",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "problemType",
+          "description_from_workbook": "题目类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "assignmentId",
+          "description_from_workbook": "作业编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "assistmentId",
+          "description_from_workbook": "辅导单元编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "startTime",
+          "description_from_workbook": "操作开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "endTime",
+          "description_from_workbook": "操作结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "timeTaken",
+          "description_from_workbook": "本次操作耗时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "correct",
+          "description_from_workbook": "本次作答正确性",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "original",
+          "description_from_workbook": "是否为原题而非支架子题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "hint",
+          "description_from_workbook": "本次操作是否请求提示",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "hintCount",
+          "description_from_workbook": "提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 28,
+          "name": "hintTotal",
+          "description_from_workbook": "可用提示总数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 29,
+          "name": "scaffold",
+          "description_from_workbook": "是否涉及支架子题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 30,
+          "name": "bottomHint",
+          "description_from_workbook": "是否使用最后一级提示",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 31,
+          "name": "attemptCount",
+          "description_from_workbook": "作答尝试次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 32,
+          "name": "frIsHelpRequest",
+          "description_from_workbook": "首个响应是否为求助",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 33,
+          "name": "frPast5HelpRequest",
+          "description_from_workbook": "前 5 次首个响应中的求助次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 34,
+          "name": "frPast8HelpRequest",
+          "description_from_workbook": "前 8 次首个响应中的求助次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 35,
+          "name": "stlHintUsed",
+          "description_from_workbook": "数据集中与提示使用有关的标记",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 36,
+          "name": "past8BottomOut",
+          "description_from_workbook": "前 8 次中的末级提示使用统计",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 37,
+          "name": "totalFrPercentPastWrong",
+          "description_from_workbook": "此前首答错误比例",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 38,
+          "name": "totalFrPastWrongCount",
+          "description_from_workbook": "此前首答错误累计次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 39,
+          "name": "frPast5WrongCount",
+          "description_from_workbook": "前 5 次首答错误次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 40,
+          "name": "frPast8WrongCount",
+          "description_from_workbook": "前 8 次首答错误次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 41,
+          "name": "totalFrTimeOnSkill",
+          "description_from_workbook": "此前在该技能上首答累计用时",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 42,
+          "name": "timeSinceSkill",
+          "description_from_workbook": "距上次练习该技能的时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 43,
+          "name": "frWorkingInSchool",
+          "description_from_workbook": "首次响应是否发生在校内",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 44,
+          "name": "totalFrAttempted",
+          "description_from_workbook": "首答尝试累计次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 45,
+          "name": "totalFrSkillOpportunities",
+          "description_from_workbook": "知识点首答累计练习机会数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 46,
+          "name": "responseIsFillIn",
+          "description_from_workbook": "是否为填空作答",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 47,
+          "name": "responseIsChosen",
+          "description_from_workbook": "是否为选择作答",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 48,
+          "name": "endsWithScaffolding",
+          "description_from_workbook": "是否在支架子题中结束",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 49,
+          "name": "endsWithAutoScaffolding",
+          "description_from_workbook": "是否在自动支架中结束",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 50,
+          "name": "frTimeTakenOnScaffolding",
+          "description_from_workbook": "支架子题上的首答耗时统计",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 51,
+          "name": "frTotalSkillOpportunitiesScaffolding",
+          "description_from_workbook": "支架子题相关的首答练习机会数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 52,
+          "name": "totalFrSkillOpportunitiesByScaffolding",
+          "description_from_workbook": "纳入支架子题统计的累计技能机会数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 53,
+          "name": "frIsHelpRequestScaffolding",
+          "description_from_workbook": "支架子题的首次响应是否求助",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 54,
+          "name": "timeGreater5Secprev2wrong",
+          "description_from_workbook": "前两次答错且用时超过 5 秒的标记",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 55,
+          "name": "sumRight",
+          "description_from_workbook": "正确作答累计次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 56,
+          "name": "helpAccessUnder2Sec",
+          "description_from_workbook": "是否在 2 秒内请求帮助",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 57,
+          "name": "timeGreater10SecAndNextActionRight",
+          "description_from_workbook": "耗时超过 10 秒且下一操作正确的标记",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 58,
+          "name": "consecutiveErrorsInRow",
+          "description_from_workbook": "连续答错次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 59,
+          "name": "sumTime3SDWhen3RowRight",
+          "description_from_workbook": "连续三次正确时的耗时统计，精确定义见原文档",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 60,
+          "name": "sumTimePerSkill",
+          "description_from_workbook": "该技能累计用时",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 61,
+          "name": "totalTimeByPercentCorrectForskill",
+          "description_from_workbook": "按技能正确率调整的用时统计",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 62,
+          "name": "Prev5count",
+          "description_from_workbook": "前 5 次的计数特征，精确定义见原文档",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 63,
+          "name": "timeOver80",
+          "description_from_workbook": "是否用时超过 80 秒",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 64,
+          "name": "manywrong",
+          "description_from_workbook": "多次答错的标记",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 65,
+          "name": "confidence(BORED)",
+          "description_from_workbook": "无聊预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 66,
+          "name": "confidence(CONCENTRATING)",
+          "description_from_workbook": "专注预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 67,
+          "name": "confidence(CONFUSED)",
+          "description_from_workbook": "困惑预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 68,
+          "name": "confidence(FRUSTRATED)",
+          "description_from_workbook": "挫败预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 69,
+          "name": "confidence(OFF TASK)",
+          "description_from_workbook": "偏离任务预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 70,
+          "name": "confidence(GAMING)",
+          "description_from_workbook": "钻系统规则预测置信度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 71,
+          "name": "RES_BORED",
+          "description_from_workbook": "重标度后的无聊预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 72,
+          "name": "RES_CONCENTRATING",
+          "description_from_workbook": "重标度后的专注预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 73,
+          "name": "RES_CONFUSED",
+          "description_from_workbook": "重标度后的困惑预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 74,
+          "name": "RES_FRUSTRATED",
+          "description_from_workbook": "重标度后的挫败预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 75,
+          "name": "RES_OFFTASK",
+          "description_from_workbook": "重标度后的偏离任务预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 76,
+          "name": "RES_GAMING",
+          "description_from_workbook": "重标度后的钻系统规则预测分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 77,
+          "name": "Ln-1",
+          "description_from_workbook": "贝叶斯知识追踪的上一时点知识估计",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 78,
+          "name": "Ln",
+          "description_from_workbook": "贝叶斯知识追踪的当前知识估计",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 79,
+          "name": "MCAS",
+          "description_from_workbook": "马萨诸塞州标准化考试成绩",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 80,
+          "name": "Enrolled",
+          "description_from_workbook": "是否入读大学",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 81,
+          "name": "Selective",
+          "description_from_workbook": "入读院校是否具有选择性",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 82,
+          "name": "isSTEM",
+          "description_from_workbook": "后续就业是否属于 STEM",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "Junyi",
+      "worksheet_rows": 7,
+      "columns": 21,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Session Id",
+          "description_from_workbook": "会话编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Time",
+          "description_from_workbook": "操作时间戳（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Student Response Type",
+          "description_from_workbook": "学生操作类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Tutor Response Type",
+          "description_from_workbook": "系统反馈类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Level (Unit)",
+          "description_from_workbook": "课程单元或主题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Level (Section)",
+          "description_from_workbook": "课程章节或练习名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称或模板标识",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Problem Start Time",
+          "description_from_workbook": "题目开始时间戳（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Step Name",
+          "description_from_workbook": "解题步骤名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Outcome",
+          "description_from_workbook": "该次操作结果",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Condition Name",
+          "description_from_workbook": "练习安排或进入方式",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "Condition Type",
+          "description_from_workbook": "实验条件类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 5
+        },
+        {
+          "column_1based": 14,
+          "name": "Selection",
+          "description_from_workbook": "被操作的界面元素",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 5
+        },
+        {
+          "column_1based": 15,
+          "name": "Action",
+          "description_from_workbook": "执行的操作",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 5
+        },
+        {
+          "column_1based": 16,
+          "name": "Input",
+          "description_from_workbook": "提交的输入",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 5
+        },
+        {
+          "column_1based": 17,
+          "name": "KC (Exercise)",
+          "description_from_workbook": "练习级知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "KC (Topic)",
+          "description_from_workbook": "主题级知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "KC (Area)",
+          "description_from_workbook": "领域级知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "CF (points_earned)",
+          "description_from_workbook": "该次练习获得的积分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "CF (earned_proficiency)",
+          "description_from_workbook": "是否达到熟练标准",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "Junyi_题目",
+      "worksheet_rows": 7,
+      "columns": 11,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "name",
+          "description_from_workbook": "练习标识",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "live",
+          "description_from_workbook": "是否发布可用",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "prerequisites",
+          "description_from_workbook": "先修练习列表",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "h_position",
+          "description_from_workbook": "知识图谱横坐标",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "v_position",
+          "description_from_workbook": "知识图谱纵坐标",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "creation_date",
+          "description_from_workbook": "创建日期",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "seconds_per_fast_problem",
+          "description_from_workbook": "快速完成一道题的参考秒数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "pretty_display_name",
+          "description_from_workbook": "展示用完整名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "short_display_name",
+          "description_from_workbook": "展示用简短名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "topic",
+          "description_from_workbook": "所属主题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "area",
+          "description_from_workbook": "所属学科领域",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OLI_操作",
+      "worksheet_rows": 7,
+      "columns": 47,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {
+        "Input": 2,
+        "KC (F2011)": 3,
+        "KC Category (F2011)": 3
+      },
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Row",
+          "description_from_workbook": "原文件行号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Sample Name",
+          "description_from_workbook": "导出样本名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Transaction Id",
+          "description_from_workbook": "操作记录编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Session Id",
+          "description_from_workbook": "会话编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Time",
+          "description_from_workbook": "本次操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Time Zone",
+          "description_from_workbook": "记录采用的时区",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "Duration (sec)",
+          "description_from_workbook": "本次操作耗时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Student Response Type",
+          "description_from_workbook": "学生操作类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Student Response Subtype",
+          "description_from_workbook": "学生操作子类型",
+          "sample_null_cells": 4,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Tutor Response Type",
+          "description_from_workbook": "系统反馈类型",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Tutor Response Subtype",
+          "description_from_workbook": "系统反馈子类型",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "Level (Sequence)",
+          "description_from_workbook": "教材序列层级",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "Level (Unit)",
+          "description_from_workbook": "教材单元",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "Level (Module)",
+          "description_from_workbook": "教材模块",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "Level (Section1)",
+          "description_from_workbook": "教材章节",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "Problem View",
+          "description_from_workbook": "该学生第几次遇到此题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "Problem Start Time",
+          "description_from_workbook": "本次遇到该题的开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "Step Name",
+          "description_from_workbook": "解题步骤名称",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "Attempt At Step",
+          "description_from_workbook": "该步骤内的尝试序号",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "Is Last Attempt",
+          "description_from_workbook": "是否为该步骤最后一次尝试",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "Outcome",
+          "description_from_workbook": "该操作的结果",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "Selection",
+          "description_from_workbook": "被操作的界面元素",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "Action",
+          "description_from_workbook": "执行的操作",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "Input",
+          "description_from_workbook": "学生输入（第一列）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "Input",
+          "description_from_workbook": "学生输入（第二列，原表同名）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 28,
+          "name": "Feedback Text",
+          "description_from_workbook": "系统反馈文本",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 29,
+          "name": "Feedback Classification",
+          "description_from_workbook": "反馈类别",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 30,
+          "name": "Help Level",
+          "description_from_workbook": "当前提示层级",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 31,
+          "name": "Total Num Hints",
+          "description_from_workbook": "提示总数",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 32,
+          "name": "KC (Single-KC)",
+          "description_from_workbook": "单知识点模型的知识点",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 33,
+          "name": "KC Category (Single-KC)",
+          "description_from_workbook": "单知识点模型的知识点分类",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 34,
+          "name": "KC (Unique-step)",
+          "description_from_workbook": "逐步骤模型的知识点",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 35,
+          "name": "KC Category (Unique-step)",
+          "description_from_workbook": "逐步骤模型的知识点分类",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 36,
+          "name": "KC (F2011)",
+          "description_from_workbook": "2011 秋季模型的知识点（第一列）",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 37,
+          "name": "KC Category (F2011)",
+          "description_from_workbook": "对应知识点分类（第一列）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 38,
+          "name": "KC (F2011)",
+          "description_from_workbook": "2011 秋季模型的知识点（第二列）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 39,
+          "name": "KC Category (F2011)",
+          "description_from_workbook": "对应知识点分类（第二列）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 40,
+          "name": "KC (F2011)",
+          "description_from_workbook": "2011 秋季模型的知识点（第三列）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 41,
+          "name": "KC Category (F2011)",
+          "description_from_workbook": "对应知识点分类（第三列）",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 42,
+          "name": "School",
+          "description_from_workbook": "学校名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 43,
+          "name": "Class",
+          "description_from_workbook": "班级标识",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 44,
+          "name": "CF (oli:activityGuid)",
+          "description_from_workbook": "OLI 活动的全局编号",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 45,
+          "name": "CF (oli:highStakes)",
+          "description_from_workbook": "OLI 是否属于高利害活动的标记",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 46,
+          "name": "CF (oli:purpose)",
+          "description_from_workbook": "OLI 活动用途",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 47,
+          "name": "CF (oli:resourceType)",
+          "description_from_workbook": "OLI 资源类型",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OLI_步骤",
+      "worksheet_rows": 7,
+      "columns": 28,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Row",
+          "description_from_workbook": "原文件行号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Sample",
+          "description_from_workbook": "导出样本名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Problem Hierarchy",
+          "description_from_workbook": "题目在课程中的层级路径",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Problem View",
+          "description_from_workbook": "该学生第几次遇到此题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Step Name",
+          "description_from_workbook": "解题步骤名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "Step Start Time",
+          "description_from_workbook": "步骤开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "First Transaction Time",
+          "description_from_workbook": "本步骤第一次操作时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Correct Transaction Time",
+          "description_from_workbook": "首次正确操作时间",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Step End Time",
+          "description_from_workbook": "步骤结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Step Duration (sec)",
+          "description_from_workbook": "步骤用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "Correct Step Duration (sec)",
+          "description_from_workbook": "首答正确步骤用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "Error Step Duration (sec)",
+          "description_from_workbook": "首答错误或求助步骤用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "First Attempt",
+          "description_from_workbook": "首次尝试结果，如正确、错误或请求提示",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "Incorrects",
+          "description_from_workbook": "本步骤答错次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "Hints",
+          "description_from_workbook": "本步骤请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "Corrects",
+          "description_from_workbook": "本步骤答对次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "Condition",
+          "description_from_workbook": "学生所处的实验条件",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "KC (F2011)",
+          "description_from_workbook": "2011 秋季模型的知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "Opportunity (F2011)",
+          "description_from_workbook": "2011 秋季模型的累计技能机会序号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "Predicted Error Rate (F2011)",
+          "description_from_workbook": "2011 秋季模型预估的首答错误率",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "KC (Single-KC)",
+          "description_from_workbook": "单知识点模型的知识点",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "Opportunity (Single-KC)",
+          "description_from_workbook": "单知识点模型的累计技能机会序号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "Predicted Error Rate (Single-KC)",
+          "description_from_workbook": "单知识点模型预估的首答错误率",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "KC (Unique-step)",
+          "description_from_workbook": "逐步骤模型的知识点",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "Opportunity (Unique-step)",
+          "description_from_workbook": "逐步骤模型的累计技能机会序号",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 28,
+          "name": "Predicted Error Rate (Unique-step)",
+          "description_from_workbook": "逐步骤模型预估的首答错误率",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OLI_题目",
+      "worksheet_rows": 7,
+      "columns": 27,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Row",
+          "description_from_workbook": "原文件行号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Sample",
+          "description_from_workbook": "导出样本名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Anon Student Id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Problem Hierarchy",
+          "description_from_workbook": "题目在课程中的层级路径",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Problem Name",
+          "description_from_workbook": "题目名称",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Problem View",
+          "description_from_workbook": "该学生第几次遇到此题",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Problem Start Time",
+          "description_from_workbook": "题目开始时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "Problem End Time",
+          "description_from_workbook": "题目结束时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Latency (sec)",
+          "description_from_workbook": "题目用时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "Steps Missing Start Times",
+          "description_from_workbook": "缺少开始时间的步骤数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "Hints",
+          "description_from_workbook": "请求提示总次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "Incorrects",
+          "description_from_workbook": "答错总次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 13,
+          "name": "Corrects",
+          "description_from_workbook": "答对总次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 14,
+          "name": "Avg Corrects",
+          "description_from_workbook": "平均答对次数（每步骤）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 15,
+          "name": "Steps",
+          "description_from_workbook": "步骤数量",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 16,
+          "name": "Avg Assistance Score",
+          "description_from_workbook": "平均求助与错误分数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 17,
+          "name": "Correct First Attempts",
+          "description_from_workbook": "首次尝试即正确的步骤数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 18,
+          "name": "Condition",
+          "description_from_workbook": "学生所处的实验条件",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 19,
+          "name": "KCs (F2011)",
+          "description_from_workbook": "2011 秋季模型涉及的知识点数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 20,
+          "name": "Steps without KCs (F2011)",
+          "description_from_workbook": "该模型下无知识点标注的步骤数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 21,
+          "name": "KC List (F2011)",
+          "description_from_workbook": "该模型下的知识点列表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 22,
+          "name": "KCs (Single-KC)",
+          "description_from_workbook": "单知识点模型涉及的知识点数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 23,
+          "name": "Steps without KCs (Single-KC)",
+          "description_from_workbook": "该模型下无知识点标注的步骤数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 24,
+          "name": "KC List (Single-KC)",
+          "description_from_workbook": "该模型下的知识点列表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 25,
+          "name": "KCs (Unique-step)",
+          "description_from_workbook": "逐步骤模型涉及的知识点数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 26,
+          "name": "Steps without KCs (Unique-step)",
+          "description_from_workbook": "该模型下无知识点标注的步骤数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 27,
+          "name": "KC List (Unique-step)",
+          "description_from_workbook": "该模型下的知识点列表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_assessments",
+      "worksheet_rows": 7,
+      "columns": 6,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次，如 2013J",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "id_assessment",
+          "description_from_workbook": "评估项目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "assessment_type",
+          "description_from_workbook": "评估类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "date",
+          "description_from_workbook": "相对课程开课日的评估日期（天）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "weight",
+          "description_from_workbook": "评估占课程总成绩的权重（%）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_courses",
+      "worksheet_rows": 7,
+      "columns": 3,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "module_presentation_length",
+          "description_from_workbook": "本期开课持续天数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_学生",
+      "worksheet_rows": 7,
+      "columns": 12,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "id_student",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "gender",
+          "description_from_workbook": "数据中记录的性别",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "region",
+          "description_from_workbook": "学生所在地区",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "highest_education",
+          "description_from_workbook": "学生最高受教育程度",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "imd_band",
+          "description_from_workbook": "居住地区多重贫困指数分段",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "age_band",
+          "description_from_workbook": "学生年龄段",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "num_of_prev_attempts",
+          "description_from_workbook": "以往修读该模块的次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "studied_credits",
+          "description_from_workbook": "学生修读的总学分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 11,
+          "name": "disability",
+          "description_from_workbook": "是否申报残障",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 12,
+          "name": "final_result",
+          "description_from_workbook": "本期课程最终结果",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_studentRegistration",
+      "worksheet_rows": 7,
+      "columns": 5,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "id_student",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "date_registration",
+          "description_from_workbook": "相对开课日的注册日期（天）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "date_unregistration",
+          "description_from_workbook": "相对开课日的退课日期（天）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_studentVle",
+      "worksheet_rows": 7,
+      "columns": 6,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "id_student",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "id_site",
+          "description_from_workbook": "在线学习资源编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "date",
+          "description_from_workbook": "相对开课日的访问日期（天）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "sum_click",
+          "description_from_workbook": "该生当天对该资源的点击总数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_网站",
+      "worksheet_rows": 7,
+      "columns": 6,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "id_site",
+          "description_from_workbook": "在线学习资源编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "code_module",
+          "description_from_workbook": "课程模块编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "code_presentation",
+          "description_from_workbook": "课程开课批次",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "activity_type",
+          "description_from_workbook": "资源活动类型，如论坛或测验",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "week_from",
+          "description_from_workbook": "计划使用该资源的起始周",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "week_to",
+          "description_from_workbook": "计划使用该资源的结束周",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "OULAD_评估",
+      "worksheet_rows": 7,
+      "columns": 5,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "id_assessment",
+          "description_from_workbook": "评估项目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "id_student",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "date_submitted",
+          "description_from_workbook": "相对开课日的提交日期（天）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "is_banked",
+          "description_from_workbook": "是否沿用以前获得的评估成绩",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "score",
+          "description_from_workbook": "该项评估的分数（0–100）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet-KT1",
+      "worksheet_rows": 7,
+      "columns": 5,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "timestamp",
+          "description_from_workbook": "发题时间戳（毫秒，已偏移）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "solving_id",
+          "description_from_workbook": "学生的题组作答会话编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "question_id",
+          "description_from_workbook": "题目编号，可连接题库",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "user_answer",
+          "description_from_workbook": "学生提交的选项（a–d）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "elapsed_time",
+          "description_from_workbook": "题目作答耗时（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet-KT2",
+      "worksheet_rows": 7,
+      "columns": 6,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "timestamp",
+          "description_from_workbook": "行为时间戳（毫秒，已偏移）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "action_type",
+          "description_from_workbook": "动作类型，如进入题组、选择答案或提交",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "item_id",
+          "description_from_workbook": "行为对象编号，如题目或题组",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "source",
+          "description_from_workbook": "学习入口或行为触发场景",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "user_answer",
+          "description_from_workbook": "选择的答案选项",
+          "sample_null_cells": 3,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "platform",
+          "description_from_workbook": "使用平台，如移动端或网页",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet-KT3",
+      "worksheet_rows": 7,
+      "columns": 6,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "timestamp",
+          "description_from_workbook": "行为时间戳（毫秒，已偏移）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "action_type",
+          "description_from_workbook": "动作类型，含答题、阅读解析和观看讲解",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "item_id",
+          "description_from_workbook": "行为对象编号，如题、题组、解析或讲解",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "source",
+          "description_from_workbook": "学习入口或行为触发场景",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "user_answer",
+          "description_from_workbook": "选择的答案选项",
+          "sample_null_cells": 3,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "platform",
+          "description_from_workbook": "使用平台，如移动端或网页",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet-KT4",
+      "worksheet_rows": 7,
+      "columns": 7,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "timestamp",
+          "description_from_workbook": "行为时间戳（毫秒，已偏移）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "action_type",
+          "description_from_workbook": "动作类型，还包括音视频等操作",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "item_id",
+          "description_from_workbook": "行为对象编号，如题、题组或媒体资源",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "cursor_time",
+          "description_from_workbook": "音视频播放位置（毫秒）",
+          "sample_null_cells": 3,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "source",
+          "description_from_workbook": "学习入口或行为触发场景",
+          "sample_null_cells": 1,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "user_answer",
+          "description_from_workbook": "选中的答案或本操作涉及的选项",
+          "sample_null_cells": 5,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "platform",
+          "description_from_workbook": "使用平台，如移动端或网页",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet_题库",
+      "worksheet_rows": 7,
+      "columns": 7,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "question_id",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "bundle_id",
+          "description_from_workbook": "共享题干或材料的题组编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "explanation_id",
+          "description_from_workbook": "对应解析编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "correct_answer",
+          "description_from_workbook": "题目的正确选项",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "part",
+          "description_from_workbook": "TOEIC 题目所属部分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "tags",
+          "description_from_workbook": "专家标注的技能编号列表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "deployed_at",
+          "description_from_workbook": "题目上线的时间戳（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet_讲解",
+      "worksheet_rows": 7,
+      "columns": 5,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 5,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "lecture_id",
+          "description_from_workbook": "讲解资源编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "part",
+          "description_from_workbook": "讲解对应的 TOEIC 部分",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "tags",
+          "description_from_workbook": "专家标注的技能编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "video_length",
+          "description_from_workbook": "视频时长（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "deployed_at",
+          "description_from_workbook": "讲解上线的时间戳（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet_付费项",
+      "worksheet_rows": 6,
+      "columns": 4,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 4,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "payment_item_id",
+          "description_from_workbook": "付费项目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "payment_type",
+          "description_from_workbook": "付费类型，如限时或按量",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "duration",
+          "description_from_workbook": "限时项目的有效时长（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "number_of_bundles",
+          "description_from_workbook": "按量项目可答题数量，按来源说明解释",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "EdNet_优惠券",
+      "worksheet_rows": 6,
+      "columns": 3,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 4,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "coupon_id",
+          "description_from_workbook": "优惠券编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "coupon_type",
+          "description_from_workbook": "优惠券类型编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "duration",
+          "description_from_workbook": "优惠券对应的时长（毫秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "MoocRadar",
+      "worksheet_rows": 2,
+      "columns": 7,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "user_id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "log_id",
+          "description_from_workbook": "作答日志编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "is_correct",
+          "description_from_workbook": "作答是否正确（1/0）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "attempts",
+          "description_from_workbook": "作答尝试次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "score",
+          "description_from_workbook": "题目得分率",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "submit_time",
+          "description_from_workbook": "提交时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "MoocRadar_题目",
+      "worksheet_rows": 2,
+      "columns": 7,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "exercise_id",
+          "description_from_workbook": "所属练习集编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "course_id",
+          "description_from_workbook": "所属课程编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "detail",
+          "description_from_workbook": "题目详情，含题干、选项和答案等",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "knowledge_type",
+          "description_from_workbook": "知识分类编码",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "cognitive_dimension",
+          "description_from_workbook": "布鲁姆认知维度编码",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "concepts",
+          "description_from_workbook": "专家标注的知识概念列表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "FoundationalASSIST",
+      "worksheet_rows": 2,
+      "columns": 7,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号，可连接题库和技能表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "hint_count",
+          "description_from_workbook": "请求提示次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "answer_text",
+          "description_from_workbook": "学生第一次提交的答案文本",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "saw_answer",
+          "description_from_workbook": "学生是否请求查看正确答案",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "discrete_score",
+          "description_from_workbook": "首次独立答对记 1，使用帮助或多次尝试记 0",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "end_time",
+          "description_from_workbook": "学生记录正确答案时的时间",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "user_xid",
+          "description_from_workbook": "匿名学生唯一标识",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "Foundational_题库",
+      "worksheet_rows": 2,
+      "columns": 10,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "Problem Set Id",
+          "description_from_workbook": "题组编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "Problem Part",
+          "description_from_workbook": "题目在题组中的位置",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "Problem Type",
+          "description_from_workbook": "题目类型",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "Answer Type",
+          "description_from_workbook": "答题方式，例如填空或选择",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "Problem Body",
+          "description_from_workbook": "带标记的原题内容",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "Fill-in Options",
+          "description_from_workbook": "填空、下拉等题型可接受的值或候选项",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "Fill-in Answers",
+          "description_from_workbook": "填空、下拉等题型的正确答案",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "Multiple Choice Options",
+          "description_from_workbook": "选择题选项内容",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "Multiple Choice Answers",
+          "description_from_workbook": "选择题正确选项",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "problem_id",
+          "description_from_workbook": "题目编号，可连接作答表",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    },
+    {
+      "name": "DBE-KT22_序列",
+      "worksheet_rows": 2,
+      "columns": 10,
+      "kind": "dataset_schema_and_samples",
+      "sample_rows": 0,
+      "duplicate_headers": {},
+      "fields": [
+        {
+          "column_1based": 1,
+          "name": "student_id",
+          "description_from_workbook": "匿名学生编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 2,
+          "name": "seq_len",
+          "description_from_workbook": "该学生序列中的题目数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 3,
+          "name": "question_ids",
+          "description_from_workbook": "按序排列的题目编号",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 4,
+          "name": "answers",
+          "description_from_workbook": "按序排列的作答正确性（1/0）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 5,
+          "name": "gt_difficulty",
+          "description_from_workbook": "教师标注的题目难度序列",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 6,
+          "name": "difficulty_feedback",
+          "description_from_workbook": "学生自报的难度序列",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 7,
+          "name": "answer_confidence",
+          "description_from_workbook": "学生自报的作答置信度序列",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 8,
+          "name": "hint_used",
+          "description_from_workbook": "每题是否使用提示",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 9,
+          "name": "time_taken",
+          "description_from_workbook": "每题答题耗时（秒）",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        },
+        {
+          "column_1based": 10,
+          "name": "num_ans_changes",
+          "description_from_workbook": "每题修改选项的次数",
+          "sample_null_cells": 0,
+          "sample_missing_marker_cells": 0
+        }
+      ]
+    }
+  ]
+}
