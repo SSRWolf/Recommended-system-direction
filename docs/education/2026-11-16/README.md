@@ -9,6 +9,7 @@
 3. [论文出处、年份与中文摘要](papers.md)
 4. [阅读顺序和八周实验计划](plan.md)
 5. [Excel 可复现摘要与完整字段清单](../../../data/education/2026-11-16/README.md)
+6. [序列挖掘与 RAG：从高频错误模式到学习建议](sequence-mining-rag.md)
 
 ## 研究主线
 
