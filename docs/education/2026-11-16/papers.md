@@ -46,7 +46,8 @@
 
 **Towards LLM-Empowered Knowledge Tracing via LLM-Student Hierarchical Behavior Alignment in Hyperbolic Space**。Xingcheng Fu, Shengpeng Wang, Yisen Gao, Xianxian Li, Chunpei Li, Qingyun Sun, Dongran Yu。*Proceedings of the AAAI Conference on Artificial Intelligence* 40(17): 14747–14755，AAAI-26；论文集页面发表于2026-03-14。DOI：[10.1609/aaai.v40i17.38494](https://doi.org/10.1609/aaai.v40i17.38494)。
 
-**中文摘要：** 教师智能体解析题目与知识层级，学生智能体生成模拟学习行为，再在双曲空间对齐合成与真实行为，以表达难度感知、遗忘模式及层级差异。论文通过四个真实教育数据集检验L-HAKT。[会议官方摘要](https://ojs.aaai.org/index.php/AAAI/article/view/38494)
+**中文摘要：** 教师智能体解析题目与知识层级，学生智能体生成模拟学习行为，再在双曲空间对齐合成与真实行为，以表达难度感知、遗忘模式及层级差异。论文通过四个真实教育数据集检验L-HAKT。[会议官方摘要]
+知识追踪（KT）通过持续的学习状态监测来诊断学生在教育中对概念的掌握程度。现有方法主要集中于基于ID或文本信息的行为序列研究。然而，由于语义建模的局限性，现有方法往往无法捕捉到（1）认知状态的层级演化和（2）个体化的问题难度感知。因此，本文提出了一种基于大型语言模型的双曲对齐知识追踪（L-HAKT）方法。首先，教师代理深度解析问题语义，并显式构建知识点的层级依赖关系；学生代理模拟学习行为以生成合成数据。然后，在双曲空间中对合成数据和真实数据进行对比学习，以减少关键特征（例如问题难度和遗忘模式）的分布差异。最后，通过优化双曲曲率，我们显式地建模知识点的树状层级结构，精确刻画不同层级知识点学习曲线形态的差异。在四个真实世界的教育数据集上进行的大量实验验证了我们的大型语言模型双曲对齐知识追踪（L-HAKT）框架的有效性。(https://ojs.aaai.org/index.php/AAAI/article/view/38494)
 
 **适配与阅读：** 方向③、⑤的方法补充；需要题目语义和知识结构。合成行为不能作为真实学生需求的独立证据；应检查合成数据、教师模型和测试题是否发生信息交叉。本文主要任务仍是知识追踪，不是直接验证学习路径效果。
 
