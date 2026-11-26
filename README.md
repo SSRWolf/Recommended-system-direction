@@ -6,6 +6,8 @@
 
 ## 文档导航
 
+- **[2026-11-26：从用户行为序列构建知识图谱——37 篇论文、摘要与研究路线](docs/education/2026-11-26-user-sequence-knowledge-graph-papers.md)**（时序知识图谱、潜在意图图、多行为图、教育知识结构发现、事件知识图谱及 EdNet 构图实验方案）
+
 - **[2026-11-26：教育行为序列推荐广泛检索——25 篇论文、中文摘要、出处与链接](docs/education/2026-11-26-educational-behavior-sequence-recommendation-papers.md)**（多行为资源/路径推荐、过程挖掘、知识追踪、对比学习及 2026 年研究；区分直接推荐与支撑方法）
 
 - **[2026-11-23 至 11-24：LBKT、EdNet 与多行为序列建模周报](docs/education/2026-11-24-lbkt-ednet-weekly-notes.md)**（概率行为因子、外积融合、KT1–KT4、用户行为子序列、对比学习、GNN、可解释性和验证计划）
